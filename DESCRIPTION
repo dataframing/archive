@@ -1,0 +1,16 @@
+Package: archive
+Title: Archive: A personal collection of utilities 
+Version: 0.01
+Authors@R: person("Danny", "Vilela", email = "danny.vilela@nyu.edu", role = c("aut", "cre"))
+Description: Exposes numerous functions and routines I find useful for data analysis and statistical modeling.
+Depends: R (>= 3.4.0)
+Imports:
+  caret (>= 6.0-76),
+  dplyr (>= 0.7.2),
+  glue (>= 1.1.1.9000),
+  purrr (>= 0.2.3),
+  tibble (>= 1.3.3)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1.9000
